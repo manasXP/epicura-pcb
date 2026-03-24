@@ -1867,7 +1867,7 @@
 		)
 		(uuid "097fc302-93fb-463f-b4e6-48b2329bdfb2")
 	)
-	(label "PB6_FAN1_PWM"
+	(label "PA6_FAN1_PWM"
 		(at 30.48 97.79 180)
 		(effects
 			(font
@@ -2427,7 +2427,7 @@
 		)
 		(uuid "69a7f347-d744-440b-9346-b42981fe1f10")
 	)
-	(label "PB6_FAN1_PWM"
+	(label "PA6_FAN1_PWM"
 		(at 287.02 64.77 180)
 		(effects
 			(font

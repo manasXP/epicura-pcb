@@ -9838,13 +9838,23 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 281.94) (xy 78.74 284.48)
+			(xy 78.74 281.94) (xy 83.82 281.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4a8f2f6a-10c1-4ae4-ab29-014b0fd2782c")
+	)
+	(wire
+		(pts
+			(xy 88.9 281.94) (xy 88.9 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a2b3c4-d5e6-47f8-a9b0-c1d2e3f4a5b6")
 	)
 	(wire
 		(pts
@@ -22106,7 +22116,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "71.5K"
+		(property "Value" "14K"
 			(at 130.556 93.98 0)
 			(effects
 				(font
@@ -25877,7 +25887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "37.4K"
+		(property "Value" "52.3K"
 			(at 390.144 46.99 0)
 			(effects
 				(font
@@ -30002,6 +30012,141 @@
 			(project "Unified_v1"
 				(path "/6562dc13-90d6-4c41-9f04-257b733d6416/db3a805b-509d-4f0f-8aaa-0219eafd0d17"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 86.36 281.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1a2b3c4-d5e6-47f8-a9b0-c1d2e3f4a5b7")
+		(property "Reference" "R92"
+			(at 84.582 280.162 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 85.09 281.94 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 86.36 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 86.36 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6")
+		)
+		(pin "2"
+			(uuid "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c7")
+		)
+		(instances
+			(project "Unified_v1"
+				(path "/6562dc13-90d6-4c41-9f04-257b733d6416/db3a805b-509d-4f0f-8aaa-0219eafd0d17"
+					(reference "R92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 284.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1a2b3c4-d5e6-47f8-a9b0-c1d2e3f4a5b8")
+		(property "Reference" "#PWR0201"
+			(at 88.9 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c8")
+		)
+		(instances
+			(project "Unified_v1"
+				(path "/6562dc13-90d6-4c41-9f04-257b733d6416/db3a805b-509d-4f0f-8aaa-0219eafd0d17"
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
